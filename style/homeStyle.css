@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(100, 100, 247);
+}
+
+.text {
+    text-align: center;
+    color: white;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.text h1 {
+    word-spacing: 10.5px;
+    letter-spacing: 5.5px;
+}
+
+.link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #CCC;
+    padding: 15px;
+    border-radius: 7px;
+    text-decoration: none;
+
+
+}
+
+.link h2 {
+    font-size: 30px;
+    color: black;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 3px;
+    user-select: none;
+}

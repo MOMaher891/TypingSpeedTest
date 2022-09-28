@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="game">
+        <div class="name">Typing Speed Test Game</div>
+        <div class="container">
+            <div class="message">
+                You Are Playing On
+                <span class="level"></span> Level & You Have <span class="seconds"></span> Seconds To Type The Word
+            </div>
+            <button class="btn btn-success w-100 start">Start Playing</button>
+            <div class="levels">
+                <button class="btn btn-primary">Easy</button>
+                <button class="btn btn-primary">Normal</button>
+                <button class="btn btn-primary">Hard</button>
+            </div>
+            <div class="the-word"></div>
+            <input type="text" class="form-control input">
+            <div class="upcoming-words"></div>
+            <div class="control">
+                <div>Time Left : <span class="time"></span> Seconds </div>
+                <div class="score">Score : <span class="got"> 0 </span> From <span class="total"></span> </div>
+            </div>
+            <div class="finish">
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+</body>
+
+</html>

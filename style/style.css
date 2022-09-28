@@ -1,0 +1,151 @@
+:root {
+    --mainColor: #2196f3;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.game {
+    text-align: center;
+    background-color: #CCC;
+    min-height: 100vh;
+}
+
+.game .name {
+    background-color: var(--mainColor);
+    padding: 15px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2.9px;
+    color: white;
+    word-spacing: 2px;
+}
+
+.game .message {
+    background-color: #EEE;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    border-radius: 6px;
+}
+
+.game .message span {
+    color: #009688;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+.game button {
+    margin: 15px 0px;
+    padding: 17px 0px;
+}
+
+.game .levels {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.game .levels button {
+    width: 100px;
+    font-weight: bolder;
+}
+
+.game .input {
+    text-align: center;
+    min-width: 100%;
+}
+
+
+.game .the-word {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+    /* color: rgb(255, 255, 255); */
+    color: #009688;
+    user-select: none;
+}
+
+
+.game .input {
+    padding: 15px 50px;
+    margin: 20px 0px 50px 0px;
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.game .input:focus {
+    outline: none;
+    border: 3px solid rgba(124, 124, 199, 0.603);
+    border-radius: 10px;
+    transition: ease-in-out 0.1s;
+}
+
+
+.upcoming-words {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0px;
+    justify-content: center;
+}
+
+.upcoming-words div {
+    background-color: var(--mainColor);
+    color: white;
+    padding: 5px;
+    font-weight: bolder;
+    border-radius: 3px;
+    margin: 5px 5px;
+}
+
+
+.control {
+    display: flex;
+    justify-content: space-between;
+}
+
+.control span {
+    font-weight: bold;
+    color: #009688;
+}
+
+.finish {
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.836);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: none;
+}
+
+.finish .good {
+    color: #080;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.finish .bad {
+    color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
